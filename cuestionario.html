@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/estilos.css" />
+    <title>Cuestionario</title>
+  </head>
+  <body>
+    <main class="indexSecundarias">
+      <header class="indexHeader">
+        <a href="index.html" class="logo">
+          <img src="img/head.png" alt="head" class="imgLogo" />
+        </a>
+        <nav class="navbar">
+          <input type="checkbox" id="menu" class="inputNavbar">
+          <label class="labelHambur" for="menu"> ☰ </label>
+          <ul class="menu menuPrueba">
+              <li class="menuPruebaElemento"><a href="personajes.html" class="personajes">personajes</a></li>
+              <li class="menuPruebaElemento"><a href="tomas.html" class="tomas">tomas</a></li>
+              <li class="menuPruebaElemento"><a href="cuestionario.html" class="personajes">cuestionario</a></li>
+          </ul>
+        </nav>
+      </header>
+      <section class="sectionPersonajes">
+        <h2 class="tituloPersonajes">compartí tu opinión</h2>
+        <form
+          action="mailto:marielbordenave@gmail.com"
+          method="post"
+          class="form"
+        >
+          <label class="titulos">NOMBRE</label>
+          <input type="text" name="nombre" required class="cajas" />
+          <label class="titulos">APELLIDO </label>
+          <input type="text" name="apellido" class="cajas" />
+          <label class="titulos">PERSONAJE/S FAVORITO/S</label>
+          <div class="personaje">
+            <input type="checkbox" name="personajefav" value="ironman" /> Iron
+            Man <br />
+            <input type="checkbox" name="personajefav" value="capitanamerica" />
+            Capitán América <br />
+            <input type="checkbox" name="personajefav" value="hukl" /> Hulk
+            <br />
+            <input type="checkbox" name="personajefav" value="thor" /> Thor
+            <br />
+            <input type="checkbox" name="personajefav" value="black" /> Black
+            Widow <br />
+            <input type="checkbox" name="personajefav" value="hawkeye" />
+            Hawkeye <br />
+            <input type="checkbox" name="personajefav" value="quicksilver" />
+            QuickSilver <br />
+            <input type="checkbox" name="personajefav" value="brujaescarlata" />
+            Bruja escarlata <br />
+            <input type="checkbox" name="personajefav" value="vision" /> Visión
+            <br />
+            <input type="checkbox" name="personajefav" value="ultron" /> Ultrón
+            <br />
+          </div>
+          <label class="titulos">COMENTARIO SOBRE LA PELÍCULA</label>
+          <textarea
+            rows="5"
+            cols="10"
+            name="comentario"
+            class="cajas"
+          ></textarea>
+          <label class="titulos">CORREO ELECTRÓNICO</label>
+          <input type="email" name="correo" class="cajas" />
+          <div class="botones">
+            <input type="submit" value="enviar" class="boton1" />
+            <input type="reset" value="borrar" class="boton2" />
+          </div>
+        </form>
+      </section>
+      <footer class="indexFooter">
+        <div class="logoDisney">
+          <a href="https://www.disneyplus.com/" target="_blank">
+            <img src="img/disney.png" class="imagenDisney" />
+          </a>
+        </div>
+        <a href="relevamiento.html" class="creadoraPagina">Mariel Bordenave</a>
+        <div class="logoPeliculas">
+          <div class="logoFacultad">
+            <a href="https://uces.edu.ar/" target="_blank">
+              <img src="img/uces.png" alt="logoUces" class="imagenUces" />
+            </a>
+          </div>
+          <div class="logoMarvel">
+            <a href="https://www.marvel.com/" target="_blank">
+              <img src="img/marvel.png" alt="logoMarvel" class="imagenMarvel" />
+            </a>
+          </div>
+        </div>
+      </footer>
+    </main>
+  </body>
+</html>
